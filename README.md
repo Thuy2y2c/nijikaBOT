@@ -1,0 +1,2 @@
+# nijikaBOT
+bocchithebot's slave. 
