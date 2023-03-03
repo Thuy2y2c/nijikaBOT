@@ -1,7 +1,6 @@
 # nijikaBOT
 
 > A major continuation of bocchithebot (not thebridge, its paused)
-<img src="https://badgen.net/badge/icon/javascript?icon=javascript&label">
 
 ## Features
 - Configurable, and easy to use.
