@@ -2,6 +2,8 @@
 
 > A major continuation of bocchithebot (not thebridge, its paused)
 
+> Currently, i am having exams (a lot) so the bot will not have updates, releases. Its closed-source for a few days for now.
+
 ## Features
 - Configurable, and easy to use.
 - Basic stupid anarchy bot commands.
