@@ -1,17 +1,4 @@
 {
-  "account": {
-    "server": {
-      "host": "localhost",
-      "port": "60193"
-    },
-    
-    "bot-info": {
-        "username": "bocchithebot",
-        "version": "1.12.2",
-        "prefix": "!"
-      }
-   },
-
    "friendlymode": {
      "enabled": true
    },
