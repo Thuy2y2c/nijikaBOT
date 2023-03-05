@@ -9,7 +9,8 @@
 
 ## General Setup
 1. Download and install [Node.js](https://nodejs.org) version `16.6.0` or higher
-2. Configure bot in `settings.json` file
+2. Configure your bot features in `settings.json` file
+3. Configure the rest in `env.example` and rename it to .env once done.
 4. Install required packages
 ```sh
 $ npm install
