@@ -12,6 +12,7 @@
   "author": "Thuy2y2c",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "mineflayer": "^4.8.1"
   }
 }

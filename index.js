@@ -8,17 +8,18 @@ const fs = require('fs');
 const path = require('path');
 const mineflayer = require('mineflayer');
 const config = require('./settings.json');
+require('dotenv').config();
 
 const botInfo = { // Will be migrated to .env for repl.it users to prevent their smp ip leaked or smth ffs
-    host: config.account['server']['host'],
-    port: config.account['server']['port'],
-    username: config.account['bot-info']['username'],
-    version: config.account['bot-info']['version']
+    host: process.env.MC_HOST,
+    port: process.env.MC_PORT,
+    username: process.env.MC_USERNAME,
+    version: process.env.MC_VERSION
 };
 
 console.log(`${botInfo.username} is starting..`)
 
-const prefix = config.account['bot-info']['prefix'];
+const prefix = process.env.INGAME_PREFIX;
 const commandsFolder = './commands';
 
 const commands = new Map();

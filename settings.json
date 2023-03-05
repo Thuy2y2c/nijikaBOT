@@ -1,17 +1,4 @@
 {
-  "account": {
-    "server": {
-      "host": "localhost",
-      "port": "60193"
-    },
-    
-    "bot-info": {
-        "username": "bocchithebot",
-        "version": "1.12.2",
-        "prefix": "!"
-      }
-   },
-
    "friendlymode": {
      "enabled": true
    },
@@ -22,7 +9,7 @@
     "delay": 60,
 
     "messages": [
-      "Do !help for commands! rinTrack @ thuy#5407"
+      "Do !help for commands! nijikaBOT @ thuy#5407"
     ]
   }
 }
