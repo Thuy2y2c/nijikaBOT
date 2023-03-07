@@ -14,10 +14,17 @@ const botInfo = { // Will be migrated to .env for repl.it users to prevent their
     host: process.env.MC_HOST,
     port: process.env.MC_PORT,
     username: process.env.MC_USERNAME,
+    auth: process.env.AUTH_LOGIN,
     version: process.env.MC_VERSION
 };
 
 console.log(`${botInfo.username} is starting..`)
+
+if (botInfo.auth === "microsoft") {
+  console.log("Microsoft authentication enabled, sending request");
+} else if (!botInfo.auth) {
+  console.log("You're using an offline Minecraft account.");
+}
 
 const prefix = process.env.INGAME_PREFIX;
 const commandsFolder = './commands';
