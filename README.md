@@ -2,6 +2,11 @@
 
 > A major continuation of bocchithebot (not thebridge, its paused)
 
+[![CodeFactor](https://www.codefactor.io/repository/github/thuy2y2c/nijikabot/badge)](https://www.codefactor.io/repository/github/thuy2y2c/nijikabot)
+![License](https://img.shields.io/github/license/Thuy2y2c/nijikaBOT)
+![Releases](https://img.shields.io/github/downloads/Thuy2y2c/nijikaBOT/total)
+![Version](https://img.shields.io/github/package-json/v/Thuy2y2c/nijikaBOT/main)
+
 ## Features
 - Configurable, and easy to use.
 - Basic stupid anarchy bot commands.
